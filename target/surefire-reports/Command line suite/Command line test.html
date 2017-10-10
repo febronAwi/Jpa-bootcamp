@@ -1,0 +1,164 @@
+<html>
+<head>
+<title>TestNG:  Command line test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Command line test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>17/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Oct 10 20:07:45 EET 2017</td>
+</tr>
+<tr><td>Total time:</td><td>38 seconds (38847 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.bootcamp.BailleurTest.createBailleurTest()'><b>createBailleurTest</b><br>Test class: com.bootcamp.BailleurTest</td>
+<td></td>
+<td>21</td>
+<td>com.bootcamp.BailleurTest@7a79be86</td></tr>
+<tr>
+<td title='com.bootcamp.BeneficiaireTest.createBeneficiaireTest()'><b>createBeneficiaireTest</b><br>Test class: com.bootcamp.BeneficiaireTest</td>
+<td></td>
+<td>0</td>
+<td>com.bootcamp.BeneficiaireTest@880ec60</td></tr>
+<tr>
+<td title='com.bootcamp.FournisseurTest.createFournisseurTest()'><b>createFournisseurTest</b><br>Test class: com.bootcamp.FournisseurTest</td>
+<td></td>
+<td>0</td>
+<td>com.bootcamp.FournisseurTest@3f3afe78</td></tr>
+<tr>
+<td title='com.bootcamp.ProgrammeTest.createProgrammeTest()'><b>createProgrammeTest</b><br>Test class: com.bootcamp.ProgrammeTest</td>
+<td></td>
+<td>0</td>
+<td>com.bootcamp.ProgrammeTest@39ba5a14</td></tr>
+<tr>
+<td title='com.bootcamp.BailleurTest.deleteBailleurTest()'><b>deleteBailleurTest</b><br>Test class: com.bootcamp.BailleurTest</td>
+<td></td>
+<td>2</td>
+<td>com.bootcamp.BailleurTest@7a79be86</td></tr>
+<tr>
+<td title='com.bootcamp.BeneficiaireTest.deleteBeneficiaireTest()'><b>deleteBeneficiaireTest</b><br>Test class: com.bootcamp.BeneficiaireTest</td>
+<td></td>
+<td>0</td>
+<td>com.bootcamp.BeneficiaireTest@880ec60</td></tr>
+<tr>
+<td title='com.bootcamp.FournisseurTest.deleteFournisseurTest()'><b>deleteFournisseurTest</b><br>Test class: com.bootcamp.FournisseurTest</td>
+<td></td>
+<td>0</td>
+<td>com.bootcamp.FournisseurTest@3f3afe78</td></tr>
+<tr>
+<td title='com.bootcamp.BailleurTest.findAllTest()'><b>findAllTest</b><br>Test class: com.bootcamp.BailleurTest</td>
+<td></td>
+<td>0</td>
+<td>com.bootcamp.BailleurTest@7a79be86</td></tr>
+<tr>
+<td title='com.bootcamp.BeneficiaireTest.findAllTest()'><b>findAllTest</b><br>Test class: com.bootcamp.BeneficiaireTest</td>
+<td></td>
+<td>0</td>
+<td>com.bootcamp.BeneficiaireTest@880ec60</td></tr>
+<tr>
+<td title='com.bootcamp.FournisseurTest.findAllTest()'><b>findAllTest</b><br>Test class: com.bootcamp.FournisseurTest</td>
+<td></td>
+<td>0</td>
+<td>com.bootcamp.FournisseurTest@3f3afe78</td></tr>
+<tr>
+<td title='com.bootcamp.ProgrammeTest.findAllTest()'><b>findAllTest</b><br>Test class: com.bootcamp.ProgrammeTest</td>
+<td></td>
+<td>0</td>
+<td>com.bootcamp.ProgrammeTest@39ba5a14</td></tr>
+<tr>
+<td title='com.bootcamp.GenerateTableTest.generateTables()'><b>generateTables</b><br>Test class: com.bootcamp.GenerateTableTest</td>
+<td></td>
+<td>4</td>
+<td>com.bootcamp.GenerateTableTest@7f63425a</td></tr>
+<tr>
+<td title='com.bootcamp.JsonTest.jsonTest()'><b>jsonTest</b><br>Test class: com.bootcamp.JsonTest</td>
+<td></td>
+<td>5</td>
+<td>com.bootcamp.JsonTest@36d64342</td></tr>
+<tr>
+<td title='com.bootcamp.RequetesTest.requestsTest()'><b>requestsTest</b><br>Test class: com.bootcamp.RequetesTest</td>
+<td></td>
+<td>1</td>
+<td>com.bootcamp.RequetesTest@511baa65</td></tr>
+<tr>
+<td title='com.bootcamp.BailleurTest.updateBailleurTest()'><b>updateBailleurTest</b><br>Test class: com.bootcamp.BailleurTest</td>
+<td></td>
+<td>0</td>
+<td>com.bootcamp.BailleurTest@7a79be86</td></tr>
+<tr>
+<td title='com.bootcamp.BeneficiaireTest.updateBeneficiaireTest()'><b>updateBeneficiaireTest</b><br>Test class: com.bootcamp.BeneficiaireTest</td>
+<td></td>
+<td>0</td>
+<td>com.bootcamp.BeneficiaireTest@880ec60</td></tr>
+<tr>
+<td title='com.bootcamp.FournisseurTest.updateFournisseurTest()'><b>updateFournisseurTest</b><br>Test class: com.bootcamp.FournisseurTest</td>
+<td></td>
+<td>0</td>
+<td>com.bootcamp.FournisseurTest@3f3afe78</td></tr>
+</table><p>
+</body>
+</html>

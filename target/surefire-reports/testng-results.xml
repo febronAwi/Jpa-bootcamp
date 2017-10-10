@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="17" passed="17">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="38847" started-at="2017-10-10T18:07:45Z" finished-at="2017-10-10T18:08:24Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="38847" started-at="2017-10-10T18:07:45Z" finished-at="2017-10-10T18:08:24Z">
+      <class name="com.bootcamp.JsonTest">
+        <test-method status="PASS" signature="jsonTest()[pri:0, instance:com.bootcamp.JsonTest@36d64342]" name="jsonTest" duration-ms="5239" started-at="2017-10-10T20:08:17Z" finished-at="2017-10-10T20:08:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jsonTest -->
+      </class> <!-- com.bootcamp.JsonTest -->
+      <class name="com.bootcamp.GenerateTableTest">
+        <test-method status="PASS" signature="generateTables()[pri:0, instance:com.bootcamp.GenerateTableTest@7f63425a]" name="generateTables" duration-ms="4254" started-at="2017-10-10T20:08:12Z" finished-at="2017-10-10T20:08:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateTables -->
+      </class> <!-- com.bootcamp.GenerateTableTest -->
+      <class name="com.bootcamp.RequetesTest">
+        <test-method status="PASS" signature="requestsTest()[pri:0, instance:com.bootcamp.RequetesTest@511baa65]" name="requestsTest" duration-ms="1444" started-at="2017-10-10T20:08:22Z" finished-at="2017-10-10T20:08:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- requestsTest -->
+      </class> <!-- com.bootcamp.RequetesTest -->
+      <class name="com.bootcamp.BeneficiaireTest">
+        <test-method status="PASS" signature="createBeneficiaireTest()[pri:0, instance:com.bootcamp.BeneficiaireTest@880ec60]" name="createBeneficiaireTest" duration-ms="432" started-at="2017-10-10T20:08:10Z" finished-at="2017-10-10T20:08:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBeneficiaireTest -->
+        <test-method status="PASS" signature="deleteBeneficiaireTest()[pri:0, instance:com.bootcamp.BeneficiaireTest@880ec60]" name="deleteBeneficiaireTest" duration-ms="293" started-at="2017-10-10T20:08:10Z" finished-at="2017-10-10T20:08:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteBeneficiaireTest -->
+        <test-method status="PASS" signature="findAllTest()[pri:0, instance:com.bootcamp.BeneficiaireTest@880ec60]" name="findAllTest" duration-ms="336" started-at="2017-10-10T20:08:10Z" finished-at="2017-10-10T20:08:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findAllTest -->
+        <test-method status="PASS" signature="updateBeneficiaireTest()[pri:0, instance:com.bootcamp.BeneficiaireTest@880ec60]" name="updateBeneficiaireTest" duration-ms="266" started-at="2017-10-10T20:08:11Z" finished-at="2017-10-10T20:08:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateBeneficiaireTest -->
+      </class> <!-- com.bootcamp.BeneficiaireTest -->
+      <class name="com.bootcamp.ProgrammeTest">
+        <test-method status="PASS" signature="createProgrammeTest()[pri:0, instance:com.bootcamp.ProgrammeTest@39ba5a14]" name="createProgrammeTest" duration-ms="337" started-at="2017-10-10T20:08:22Z" finished-at="2017-10-10T20:08:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createProgrammeTest -->
+        <test-method status="PASS" signature="findAllTest()[pri:0, instance:com.bootcamp.ProgrammeTest@39ba5a14]" name="findAllTest" duration-ms="318" started-at="2017-10-10T20:08:22Z" finished-at="2017-10-10T20:08:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findAllTest -->
+      </class> <!-- com.bootcamp.ProgrammeTest -->
+      <class name="com.bootcamp.BailleurTest">
+        <test-method status="PASS" signature="createBailleurTest()[pri:0, instance:com.bootcamp.BailleurTest@7a79be86]" name="createBailleurTest" duration-ms="21447" started-at="2017-10-10T20:07:45Z" finished-at="2017-10-10T20:08:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBailleurTest -->
+        <test-method status="PASS" signature="deleteBailleurTest()[pri:0, instance:com.bootcamp.BailleurTest@7a79be86]" name="deleteBailleurTest" duration-ms="2200" started-at="2017-10-10T20:08:07Z" finished-at="2017-10-10T20:08:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteBailleurTest -->
+        <test-method status="PASS" signature="findAllTest()[pri:0, instance:com.bootcamp.BailleurTest@7a79be86]" name="findAllTest" duration-ms="377" started-at="2017-10-10T20:08:09Z" finished-at="2017-10-10T20:08:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findAllTest -->
+        <test-method status="PASS" signature="updateBailleurTest()[pri:0, instance:com.bootcamp.BailleurTest@7a79be86]" name="updateBailleurTest" duration-ms="355" started-at="2017-10-10T20:08:09Z" finished-at="2017-10-10T20:08:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateBailleurTest -->
+      </class> <!-- com.bootcamp.BailleurTest -->
+      <class name="com.bootcamp.FournisseurTest">
+        <test-method status="PASS" signature="createFournisseurTest()[pri:0, instance:com.bootcamp.FournisseurTest@3f3afe78]" name="createFournisseurTest" duration-ms="479" started-at="2017-10-10T20:08:11Z" finished-at="2017-10-10T20:08:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createFournisseurTest -->
+        <test-method status="PASS" signature="deleteFournisseurTest()[pri:0, instance:com.bootcamp.FournisseurTest@3f3afe78]" name="deleteFournisseurTest" duration-ms="226" started-at="2017-10-10T20:08:12Z" finished-at="2017-10-10T20:08:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteFournisseurTest -->
+        <test-method status="PASS" signature="findAllTest()[pri:0, instance:com.bootcamp.FournisseurTest@3f3afe78]" name="findAllTest" duration-ms="210" started-at="2017-10-10T20:08:12Z" finished-at="2017-10-10T20:08:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findAllTest -->
+        <test-method status="PASS" signature="updateFournisseurTest()[pri:0, instance:com.bootcamp.FournisseurTest@3f3afe78]" name="updateFournisseurTest" duration-ms="275" started-at="2017-10-10T20:08:12Z" finished-at="2017-10-10T20:08:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateFournisseurTest -->
+      </class> <!-- com.bootcamp.FournisseurTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
